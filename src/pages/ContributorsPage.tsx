@@ -2,6 +2,7 @@ import React from 'react';
 import { useTermGroups } from '../hooks/useTermGroups';
 import { ExportButton } from '../components/ExportButton';
 import { exportToCSV } from '../utils/csvExport';
+import { VideoCard } from '../components/VideoCard';
 import { Lightbulb, Heart, Share2, Github, Instagram, Mail } from 'lucide-react';
 
 export function ContributorsPage() {
@@ -74,6 +75,16 @@ export function ContributorsPage() {
             透過收集這些不同的視角，我們不僅能夠更全面地理解語言的豐富性，
             也能夠促進社群之間的理解與交流。
           </p>
+        </div>
+
+        {/* 專案介紹影片 */}
+        <div className="mt-8">
+          <VideoCard
+            thumbnailUrl="https://i.ytimg.com/vi/5xA-SBlVk4Q/maxresdefault.jpg"
+            videoUrl="https://www.youtube.com/watch?v=5xA-SBlVk4Q"
+            title="專案介紹影片"
+            description="想了解更多關於定義小幫手的故事嗎？讓我來為你介紹這個專案的緣起和願景。"
+          />
         </div>
 
         {/* 創作者簡介 */}
