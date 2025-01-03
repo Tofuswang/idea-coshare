@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send } from 'lucide-react';
+import { Send, HelpCircle } from 'lucide-react';
 
 interface DefinitionFormProps {
   onSubmit: (definition: {
@@ -102,7 +102,13 @@ export function DefinitionForm({ onSubmit }: DefinitionFormProps) {
       {isRecording && (
         <div className="mb-4">
           <label htmlFor="recorder" className="block text-sm font-medium text-gray-700 mb-1">
-            記錄者
+            <div className="flex items-center gap-1 group relative">
+              記錄者
+              <HelpCircle size={16} className="text-gray-400" />
+              <div className="absolute left-0 top-6 bg-gray-800 text-white text-xs rounded px-2 py-1 w-48 invisible group-hover:visible z-10">
+                根據原著進行摘錄的二手資訊提供者
+              </div>
+            </div>
           </label>
           <input
             id="recorder"
