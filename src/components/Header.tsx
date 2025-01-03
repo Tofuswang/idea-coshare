@@ -85,7 +85,7 @@ export function Header() {
 
         <div className="mt-4 space-y-2">
           <p className="text-lg text-gray-700">
-            一起來定義這個世界！
+            一起來定義這個世界！!!
           </p>
           <p className="text-gray-600">
             分享你的想法，看看別人怎麼想，一起建立共同的理解。

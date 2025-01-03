@@ -82,7 +82,7 @@ export function ContributorsPage() {
         <div>
           <h3 className="text-xl font-semibold text-gray-800 mb-2">Tofus</h3>
           <p className="text-gray-600 mb-4">
-            g0v 參與者，熱愛開源社群。相信透過開放協作，我們可以一起建立更好的知識分享生態系。
+            g0v 參與者，<a href='https://www.gapyear.tw/'>休學中</a> 。相信透過開放協作，我們可以一起建立更好的知識分享生態系。
           </p>
           <div className="flex gap-4">
             <a
