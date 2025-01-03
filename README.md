@@ -111,7 +111,7 @@
 ---
 
 ## 聯繫方式
-如有任何問題或建議，請透過以下方式聯繫我們：
-- Email: support@tofuswang.com
-- GitHub Issues: [https://github.com/your-repo/idea-share/issues](https://github.com/your-repo/idea-share/issues)
+如有任何問題或建議，請透過以下方式聯繫坑主：
+- Email: terry.f.wang@gmail.com
+- GitHub Issues: [https://github.com/g0v/idea-coshare/issues](https://github.com/g0v/idea-coshare/issues)
 
