@@ -30,7 +30,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <Lightbulb className="text-yellow-600" size={32} />
-            <h1 className="text-3xl md:text-2xl font-bold text-gray-900">共享定義小幫手</h1>
+            <h1 className="text-3xl md:text-2xl font-bold text-gray-900">定義小幫手</h1>
           </Link>
           
           {/* Desktop Navigation */}
@@ -83,7 +83,14 @@ export function Header() {
           </Link>
         </div>
 
-        <p className="mt-2 text-gray-700">分享你的定義，查看别人的定義，匯出所有人的定義！</p>
+        <div className="mt-4 space-y-2">
+          <p className="text-lg text-gray-700">
+            一起來定義這個世界！
+          </p>
+          <p className="text-gray-600">
+            分享你的想法，看看別人怎麼想，一起建立共同的理解。
+          </p>
+        </div>
       </div>
     </header>
   );
