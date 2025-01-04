@@ -65,7 +65,7 @@
 ### **專案架構**
 - 前端框架：React.js
 - 後端平台：Netlify Functions
-- 資料儲存：Firebase Realtime Database
+- 資料儲存：Supabase
 
 ### **本地開發環境設置**
 1. 安裝 [Node.js](https://nodejs.org/)。
@@ -87,7 +87,7 @@
 ### **部署到 Netlify**
 1. 登錄 [Netlify](https://www.netlify.com/)。
 2. 將專案連結到 Netlify 並選擇主要分支。
-3. 配置環境變數（如 Firebase 的 API 密鑰）。
+3. 配置環境變數
 4. 部署後確認功能正常運行。
 
 ---
